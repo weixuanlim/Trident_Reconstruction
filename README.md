@@ -19,8 +19,7 @@ ve_10_100TeV/
 
 **Dataset Format**
 
-To train the model from scratch, run Train.py file.
-First create a folder named trained model and an empty file named history.csv in the created folder, then run Train.py
+To train the model from scratch, first create a folder named trained_model and an empty file named history.csv in the created folder, then run Train.py.
 
 **Acknowledgments**
 
