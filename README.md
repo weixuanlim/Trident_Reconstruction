@@ -23,9 +23,4 @@ To train the model from scratch, first create a folder named trained_model and a
 
 **Acknowledgments**
 
-Some parts of the codes are adapted from:
-
-* [ChenLi](https://github.com/ChenLi2049/ISeeCube)
-* [DrHB](https://github.com/DrHB/icecube-2nd-place/)
-
-who both worked on the IceCube Neutrino Kaggle project data.
+Some parts of the codes are adapted from: [ChenLi](https://github.com/ChenLi2049/ISeeCube), [DrHB](https://github.com/DrHB/icecube-2nd-place/) who both worked on the IceCube Neutrino Kaggle project data.
