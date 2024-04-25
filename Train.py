@@ -231,7 +231,7 @@ def train():
     learn = Learner(
         data,
         model,
-        path="S_RegA",
+        path="trained_model",
         wd=0.01,
         loss_func=mse_loss,
         metrics=[mean_angular_error],
