@@ -1,0 +1,5 @@
+torch==1.13.1+cu116
+torchscale==0.2.0
+fastai==2.7.10
+pandas==2.0.3
+pyarrow==13.0.0
