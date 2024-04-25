@@ -86,7 +86,7 @@ class Dataset(torch.utils.data.Dataset):
         
         target_data = self.target_cache[folder_path]
         info = target_data[file_idx]['particles_in'][0]
-        target_value = get_direction(torch.tensor(info['px']),torch.tensor(info['py']),torch.tensor(info['pz']))  # Replace with your actual function
+        target_value = get_direction(torch.tensor(info['px']),torch.tensor(info['py']),torch.tensor(info['pz'])) 
         target_dict = {"target": target_value.float()}
         
         return data_dict, target_dict
