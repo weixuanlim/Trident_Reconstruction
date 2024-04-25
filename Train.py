@@ -91,7 +91,7 @@ class Dataset(torch.utils.data.Dataset):
         
         return data_dict, target_dict
 """
-Some enmdeddinf are done before projecting the data into encoder block
+Some emdedding are done before projecting the data into encoder block
 """
 class SinusoidalEncoding(nn.Module):
     def __init__(self, dim, M=10000):
